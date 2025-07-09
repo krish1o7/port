@@ -1,0 +1,131 @@
+.head{
+    
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+    padding: 0px;
+}
+.text{
+    text-align: center;
+    font-size: 50px;
+      background: linear-gradient(90deg, #a26ae7, #e73c7e); /* purple to pink */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  padding: 0px;
+}
+.cards{
+    text-align: center;
+   padding:11px 55px 3px 10px;
+}
+.card-opt{
+ background-color: #aaa;
+  padding: 17px 30px 3px 32px;
+  border-radius: 30px;
+  margin-left: 20px;
+   opacity: 0.7;
+
+}
+.card-opt:hover{
+  background-color: #5c5c5c;
+}
+body {
+    background-color: black; 
+    background-image: radial-gradient(#5c5c5c 1px, transparent 1px);
+    background-size: 30px 30px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+} 
+.timeline-section{
+  color: #ffffff;
+    padding: 0 20px;
+    max-width: 800px;
+    text-align: center;
+     padding: 20px 0px 20px 300px;
+     
+}
+
+head{
+    font-size: 50px;
+}
+.timeline {
+  position: relative;
+  margin-left: 20px;
+  border-left: 2px solid #ccc;
+}
+.timeline-dot {
+  position: relative;
+  top: 17px;
+  left: 121px;
+  width: 12px;
+  height: 12px;
+  background: #ae00ff;
+  border-radius: 50%;
+  border: 2px solid white;
+  
+}
+
+
+.timeline-date {
+  font-size: 18px;
+  color: #aaa;
+  margin-bottom: 4px;
+  text-align: left;
+    margin: 0px 588px 19px 150px;
+}
+
+.timeline-content {
+  font-size: 16px;
+  text-align: left;
+  
+   
+}
+
+.timeline-content a {
+  color: #7d5fff;
+  text-decoration: none;
+}
+.timeline-item {
+  position: relative;
+  padding: 20px 0 20px 30px;
+}
+
+.skills{
+  text-align:center;
+  
+}
+.container{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 10px 300px 0px 300px;
+    
+ 
+}
+.skills-con{
+  background-color: #3b3b3b;
+  width: 250px;
+  height: 220px;
+  border-radius: 20px;
+  cursor: pointer;
+  
+} 
+.skills-con:hover{
+background-color: #2a2929;
+}
+.skills-con img{
+  padding: 30px;
+}
+
+h2::after{
+  content: '';
+  height: 3px;
+  width: 310px;
+  position: absolute;
+background: linear-gradient(90deg, #a26ae7, #e73c7e);
+  bottom:680px;
+  left: 660px;
+  border-radius: 100%;
+
+}
