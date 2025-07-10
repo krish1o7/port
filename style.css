@@ -113,6 +113,8 @@ head{
 } 
 .skills-con:hover{
 background-color: #2a2929;
+transform: scale(1.1); /* Zoom effect */
+  
 }
 .skills-con img{
   padding: 30px;
@@ -128,4 +130,38 @@ background: linear-gradient(90deg, #a26ae7, #e73c7e);
   left: 660px;
   border-radius: 100%;
 
+}
+.project{
+    text-align:center;
+    margin-top: 80px;
+}
+.con{
+    display: grid;
+    justify-content: space-between;
+    align-items: top;
+    padding: 0px 100px 0px 460px;
+    
+    
+}
+.project-con{
+background-color: #3b3b3b;
+  width: 513.55;
+  height: 350px;
+  border-radius: 20px;
+  cursor: pointer;
+margin-top: 150px;
+ transition: box-shadow 0.3s ease;
+}
+.project-con img{
+
+  border-radius: 15px; /* rounded corners */
+
+}
+.project-con h2{
+ color: aliceblue;
+}
+.project-con:hover{
+background-color: #2a2929;
+transform: scale(1.01); /* Zoom effect */
+   box-shadow: 0 0 15px 2px #ffffff;
 }
